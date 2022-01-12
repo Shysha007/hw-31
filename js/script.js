@@ -3,7 +3,7 @@
 function arrayFlat(arr) {
     if (arguments.length !== 1) {
       throw new Error(
-        "Function accept only 1 argument, too much arguments provided"
+        `Function accept only 1 argument, too much arguments provided`
       );
     }
     return arr.reduce((acc, item) => {
